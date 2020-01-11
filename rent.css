@@ -1,0 +1,37 @@
+th{
+	padding:20px 10px;
+}	 
+ 
+ 
+
+.al {
+	background-image: url('cars5.jpg');
+background-position:100% 100%;
+	background-repeat: none;
+}
+
+.a{
+	height:300px;
+	width:350px;
+	float:center;
+}.columns {
+  float: left;
+  width: 50%;
+}
+
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+	  
+	  text-align: left;
+      height: 250px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0,0,0,0.8);
+	  color: white;
+  }
